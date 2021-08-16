@@ -10,9 +10,11 @@ package customermailapplication;
  *
  * @author sarun
  */
-//make this class a subclass of customer
-public class DelinquentCustomer {
+// make this class a subclass of customer
+public class DelinquentCustomer extends Customer {
+    public String createMail() {
+        return "Delinquent Customer";
+    }
+    // Complete this class
 
-    //Complete this class
-    
 }
